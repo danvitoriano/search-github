@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Monaco";
+  src: url("./Monaco.ttf");
+  -moz-osx-font-smoothing: "grayscale";
+  -webkit-font-smoothing: "antialiased";
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("./Raleway.ttf");
+  -moz-osx-font-smoothing: "grayscale";
+  -webkit-font-smoothing: "antialiased";
+}
+.container {
+  display: grid;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.templateColumns2 {
+  grid-gap: 50px;
+  grid-template-columns: 380px auto;
+  margin: 0 28px;
+}
+.grid1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  box-sizing: border-box;
+  padding: 0 28px;
+}
+.grid2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  box-sizing: border-box;
+  padding: 0 28px;
+}
+.user-container {
+  padding-top: 20px;
+}
+
+.App {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -305px;
+  width: 610px;
+  height: 200px;
+  text-align: center;
+}
