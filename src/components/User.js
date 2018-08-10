@@ -73,9 +73,7 @@ export default class User extends React.Component {
       <div className="user-container">
         <div className="container templateColumns2 user-header">
           <div className="grow1">
-            <Link to="/" {...css({ textDecoration: "none" })}>
-              <Text type="title" fontSize="40" link="/" />
-            </Link>
+            <Text type="title" fontSize="40" dataCy="backhome" href="/" />
           </div>
           <div className="grow2">
             <Search user={login} />

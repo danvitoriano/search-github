@@ -114,23 +114,29 @@ export default class Text extends React.Component {
         return (
           <header className="container">
             <h1 id={this.props.id}>
-              <div
-                {...styles.Github}
-                {...css({
-                  fontSize: `${this.props.fontSize}`
-                })}
+              <a
+                data-cy={this.props.dataCy}
+                href={this.props.href}
+                {...css({ textDecoration: "none" })}
               >
-                Github
-              </div>
-              <div
-                {...styles.Search}
-                {...css({
-                  fontSize: `${this.props.fontSize}`
-                })}
-              >
-                {" "}
-                Search
-              </div>
+                <span
+                  {...styles.Github}
+                  {...css({
+                    fontSize: `${this.props.fontSize}`
+                  })}
+                >
+                  Github
+                </span>
+                <span
+                  {...styles.Search}
+                  {...css({
+                    fontSize: `${this.props.fontSize}`
+                  })}
+                >
+                  {" "}
+                  Search
+                </span>
+              </a>
             </h1>
           </header>
         );
