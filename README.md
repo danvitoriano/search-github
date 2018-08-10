@@ -32,7 +32,23 @@ yarn build
 npx cypress open
 ```
 
-Starts [http://cypress.io](http://cypress.io) JavaScript End to End Testing Framework.
+Starts [http://cypress.io](http://cypress.io) JavaScript End to End Testing Framework. You can change properties, **environment** and mock stubs at `Globals.js` file.
+
+## Continuos Integration
+
+Automated build continuous process with [CircleCI](http://circleci.com)
+
+## Deploy
+
+Install [now.sh](http://now.sh) to build and deploy on public address. Then just run:
+
+```
+now
+```
+
+## GitHub Mock API
+
+[GitHub API](https://developer.github.com/v3/) has 5000 request limit per hour. If you got stucked into this, use this [fork](https://github.com/danvitoriano/mock-github-api) of [mock-github-api](https://github.com/mzabriskie/mock-github-api) and run it from localhost. You can change properties at `Globals.js` file.
 
 ## [Wiki](https://github.com/danvitoriano/search-github/wiki)
 
