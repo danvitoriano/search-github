@@ -33,7 +33,6 @@ export default class Input extends React.Component {
         id={this.props.id}
         type={this.props.type}
         name={this.props.name}
-        value={this.props.value}
         onChange={this.props.onChange}
         className={this.props.className}
         {...styles.input}

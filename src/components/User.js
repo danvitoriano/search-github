@@ -2,12 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Search from "./Search";
 import Text from "./Text";
+import Results from "./Results";
 import Globals from "./Globals";
 import { css } from "glamor";
 
 // vars
 var apiUser,
   login = "";
+
+var myUser = [];
 
 // if env is production fetch from github api, otherwise, mock api
 Globals.api.env === "production"
@@ -70,19 +73,13 @@ export default class User extends React.Component {
       <div className="user-container">
         <div className="container templateColumns2 user-header">
           <div className="grow1">
-            <Link
-              to="/"
-              {...css({
-                textDecoration: "none"
-              })}
-            >
-              <Text type="title" fontSize="40" link="/" />
-            </Link>
+            <Text type="title" fontSize="40" dataCy="backhome" href="/" />
           </div>
           <div className="grow2">
             <Search user={login} />
           </div>
         </div>
+        <Results error={this.state.hasError} user={myUser} />
       </div>
     );
   }
