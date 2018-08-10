@@ -1,6 +1,6 @@
 # Search GitHub
 
-[![Build Status](https://travis-ci.org/danvitoriano/search-github.svg?branch=master)](https://travis-ci.org/danvitoriano/search-github)
+[![CircleCI](https://circleci.com/gh/danvitoriano/search-github.svg?style=svg)](https://circleci.com/gh/danvitoriano/search-github)
 
 **Type for an username and get GitHub user details.**
 
