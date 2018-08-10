@@ -28,14 +28,15 @@ const styles = {
     verticalAlign: "middle",
     "> img": {
       display: "inline-block",
-      lineHeight: 0.5,
+      lineHeight: 1.25,
       width: 24,
       height: 24,
       verticalAlign: "middle"
     },
-    "> span": {
-      lineHeight: 0.5,
+    "> div": {
+      lineHeight: 1.25,
       display: "inline-block",
+      maxWidth: 300,
       marginLeft: 7,
       verticalAlign: "middle"
     }
@@ -66,34 +67,34 @@ export default class Text extends React.Component {
       case "UserName":
         return (
           <div className="container">
-            <span {...styles.UserName} id={this.props.id}>
+            <div {...styles.UserName} id={this.props.id}>
               {this.props.label}
-            </span>
+            </div>
           </div>
         );
       case "details":
         return (
           <div className="container">
-            <span {...styles.details} id={this.props.id}>
+            <div {...styles.details} id={this.props.id}>
               {this.props.label}
-            </span>
+            </div>
           </div>
         );
       case "profile":
         return (
           <div className="container">
-            <span {...styles.details} id={this.props.id}>
+            <div {...styles.details} id={this.props.id}>
               <img src={this.props.icon} alt={this.props.label} />
-              <span>{this.props.label}</span>
-            </span>
+              <div>{this.props.label}</div>
+            </div>
           </div>
         );
       case "notfound":
         return (
           <div className="container">
-            <span {...styles.NotFound} id={this.props.id}>
+            <div {...styles.NotFound} id={this.props.id}>
               {this.props.label}
-            </span>
+            </div>
           </div>
         );
       case "repos":
@@ -113,15 +114,15 @@ export default class Text extends React.Component {
         return (
           <header className="container">
             <h1 id={this.props.id}>
-              <span
+              <div
                 {...styles.Github}
                 {...css({
                   fontSize: `${this.props.fontSize}`
                 })}
               >
                 Github
-              </span>
-              <span
+              </div>
+              <div
                 {...styles.Search}
                 {...css({
                   fontSize: `${this.props.fontSize}`
@@ -129,7 +130,7 @@ export default class Text extends React.Component {
               >
                 {" "}
                 Search
-              </span>
+              </div>
             </h1>
           </header>
         );
