@@ -1,4 +1,5 @@
 import React from "react";
+import Main from "./Main";
 import { css } from "glamor";
 
 // global styles
@@ -15,6 +16,10 @@ css.global("h1, h2", {
 });
 
 // app render
-const App = () => <div />;
+const App = () => (
+  <div>
+    <Main />
+  </div>
+);
 
 export default App;
