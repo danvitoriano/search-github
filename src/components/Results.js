@@ -1,6 +1,7 @@
 import React from "react";
 import { css } from "glamor";
 import Text from "./Text";
+import Repos from "./Repos";
 import organization from "./media/organization.png";
 import location from "./media/location.png";
 import star from "./media/star.png";
@@ -195,7 +196,12 @@ export default class Results extends React.Component {
               icon={followers}
             />
           </div>
-          <div className="grow2">{/* render repositories */}</div>
+          <div className="grow2">
+            {this.props.error === false ? (
+              // render repositories
+              <Repos list={this.props.user.login} />
+            ) : null}
+          </div>
         </div>
       );
     }
