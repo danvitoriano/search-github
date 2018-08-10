@@ -1,5 +1,7 @@
 # Search GitHub
 
+[![Build Status](https://travis-ci.org/danvitoriano/search-github.svg?branch=master)](https://travis-ci.org/danvitoriano/search-github)
+
 **Type for an username and get GitHub user details.**
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
