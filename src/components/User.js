@@ -1,10 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Search from "./Search";
 import Text from "./Text";
 import Results from "./Results";
 import Globals from "./Globals";
-import { css } from "glamor";
 
 // vars
 var apiUser,

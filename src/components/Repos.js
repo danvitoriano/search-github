@@ -6,7 +6,6 @@ import star from "./media/star.png";
 
 // vars
 var apiUser; // which API to fetch depending on env
-var login = ""; // store login user
 var repoList = []; // store repositories list
 
 // if env is production fetch from github api, otherwise, mock api
@@ -50,7 +49,6 @@ export default class Repos extends React.Component {
   // initial bootstrap props and state
   constructor(props) {
     super(props);
-    login = this.props.list;
     this.state = { user: this.props.list, repos: repoList, noRepos: false };
     this.setState = this.setState.bind(this);
     this.fetchRepos = this.fetchRepos.bind(this);
