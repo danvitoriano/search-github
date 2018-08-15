@@ -20,7 +20,7 @@ yarn install
 yarn start
 ```
 
-Starts the development server at [http://localhost:3000](http://localhost.com).
+Starts the development server at [http://localhost:3000](http://localhost:3000).
 
 ```
 yarn build
