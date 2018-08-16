@@ -40,10 +40,27 @@ Automated build continuous process with [CircleCI](http://circleci.com)
 
 ## Deploy
 
+### now.sh
+
 Install [now.sh](http://now.sh) to build and deploy on public address. Then just run:
 
 ```
 now
+```
+
+### Heroku
+
+Use [Heroku Buildpack](https://github.com/mars/create-react-app-buildpack).
+
+✏️ *Replace `$APP_NAME` with a name for your unique app.*
+
+```bash
+git init
+heroku create $APP_NAME --buildpack https://github.com/mars/create-react-app-buildpack.git
+git add .
+git commit -m "Start with create-react-app"
+git push heroku master
+heroku open
 ```
 
 ## GitHub Mock API
