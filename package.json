@@ -12,14 +12,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "now-start": "serve --single ./build",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "npx cypress open",
     "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "cypress": "^5.2.0",
-    "serve": "^11.3.2"
   },
   "browserslist": {
     "production": [
