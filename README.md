@@ -29,7 +29,13 @@ yarn build
 ## Test
 
 ```
-npx cypress open
+yarn test
+```
+
+## Cypress End-2-End Testing Framework
+
+```
+yarn e2e
 ```
 
 Starts [http://cypress.io](http://cypress.io) JavaScript End to End Testing Framework. You can change properties, **environment** and mock stubs at `Globals.js` file.
