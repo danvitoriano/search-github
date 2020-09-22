@@ -2,6 +2,13 @@
 
 [![CircleCI](https://circleci.com/gh/danvitoriano/search-github.svg?style=svg)](https://circleci.com/gh/danvitoriano/search-github)
 
+<img src="https://raw.githubusercontent.com/danvitoriano/search-github/master/src/components/media/github-search-screenshot.png" />
+
+## DEMO
+
+[https://search-github-dnvtrn.herokuapp.com](https://search-github-dnvtrn.herokuapp.com/)
+
+
 **Type for an username and get GitHub user details.**
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
