@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ```
 git clone git@github.com:danvitoriano/search-github.git
 cd search-github
-yarn install
+yarn
 ```
 
 ## Run
@@ -52,7 +52,7 @@ now
 
 Use [Heroku Buildpack](https://github.com/mars/create-react-app-buildpack).
 
-✏️ *Replace `$APP_NAME` with a name for your unique app.*
+✏️ _Replace `$APP_NAME` with a name for your unique app._
 
 ```bash
 git init
