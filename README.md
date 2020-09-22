@@ -3,6 +3,7 @@
 [![CircleCI](https://circleci.com/gh/danvitoriano/search-github.svg?style=svg)](https://circleci.com/gh/danvitoriano/search-github)
 
 <img src="https://raw.githubusercontent.com/danvitoriano/search-github/master/src/components/media/github-search-screenshot.png" />
+<img src="https://raw.githubusercontent.com/danvitoriano/search-github/master/src/components/media/serach-github-profile.png" />
 
 ## DEMO
 
