@@ -3,7 +3,7 @@ const Globals = {
     env: process.env.NODE_ENV, // env (CHANGE HERE FOR TESTS)
     // env: "production", // env (CHANGE HERE FOR TESTS)
     apiGithubUser: "https://api.github.com/users/", // github API
-    apiMockUser: "http://localhost:5000/users/", // github mocked API
+    apiMockUser: "https://api.github.com/users/", // github API
     localhostClient: "http://localhost:3000" // localhost running
   },
   colors: {

@@ -4,11 +4,11 @@
   "license": "SEE LICENSE IN LICENSE",
   "private": true,
   "dependencies": {
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-scripts": "1.1.5",
-    "react-router-dom": "^4.3.1",
-    "glamor": "^2.20.40"
+    "glamor": "^2.20.40",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -18,7 +18,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "cypress": "^3.1.0",
-    "serve": "^10.0.0"
+    "cypress": "^5.2.0",
+    "serve": "^11.3.2"
   }
 }
