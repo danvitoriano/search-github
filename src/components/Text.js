@@ -103,6 +103,7 @@ export default class Text extends React.Component {
             <a
               id={this.props.id}
               href={this.props.href}
+              rel="noopener noreferrer"
               target="_blank"
               {...styles.repos}
             >
